@@ -13,7 +13,7 @@ postHeader = {"X-Funtranslations-Api-Secret": FUN_API_KEY}
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 
-print("Client loaded: " + client)
+print("Client loaded!")
 
 @client.event
 async def on_ready():
